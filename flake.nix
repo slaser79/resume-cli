@@ -31,6 +31,12 @@
                                                 program = "${resume-cli}/bin/resume";
                                               }
                                       );
+          packages  = forAllSystems (system:
+                            pkgs.${system}.resume-cli
+
+                      );
+          defaultPackage = self.packages; 
+
         } // {
           overlay = final: prev: {
             resume-cli = (prev.mkYarnPackage {

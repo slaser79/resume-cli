@@ -7,6 +7,7 @@
 [![npm package](https://badge.fury.io/js/resume-cli.svg)](https://www.npmjs.org/package/resume-cli)
 
 This is the command line tool for [JSON Resume](https://jsonresume.org), the open source initiative to create a JSON-based standard for resumes.
+\**This fork nixifies the resume-cli** 
 
 [Read more...](https://jsonresume.org/schema/)
 
