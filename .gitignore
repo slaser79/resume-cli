@@ -3,3 +3,5 @@ build
 resume.json
 *.html
 *.pdf
+result
+.husky/
